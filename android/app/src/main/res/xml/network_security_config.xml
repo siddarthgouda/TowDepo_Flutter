@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- allow cleartext only for this specific host/IP -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">15.207.109.210</domain>
+    </domain-config>
+
+    <!-- block cleartext by default for others -->
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>
